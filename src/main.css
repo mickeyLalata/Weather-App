@@ -1,0 +1,44 @@
+body {
+    background: #4d5df0;
+    background: linear-gradient(90deg, rgba(77, 93, 240, 1) 0%, rgba(29, 212, 253, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #4d5df0;
+    background: linear-gradient(90deg, rgba(77, 93, 240, 1) 0%, rgba(29, 212, 253, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .app {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .weatherDisplay {
+    margin-top: 20px;
+    text-align: left;
+  }
